@@ -19,7 +19,7 @@ from app import app
          result = self.app.get('/') 		
 
           # verifica o retorno do conteudo da pagina		
-         self.assertRegex(result.data.decode(), "DevOps HCS.")		
+         self.assertRegex(result.data.decode(), "HCS.")		
 
  
   if __name__ == "__main__":		
